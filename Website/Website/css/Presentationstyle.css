@@ -1,0 +1,110 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/image0.png'); /* Path to the background image */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center center; /* Center the image horizontally and vertically */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    background-color: transparent; /* Make the body background transparent */
+}
+
+header {
+    background-color: rgba(99, 27, 216, 0.087); /* Set the light grey background color with opacity */
+    color: #20dab2; /* Set the light gold font color */
+    text-align: right;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Center the navigation links vertically */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Align the links horizontally */
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px; /* Add some spacing between the buttons */
+}
+
+nav a {
+    color: #671ea3f1; /* Set the light gold font color */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px; /* Add rounded edges to the buttons */
+}
+
+nav a:hover {
+    background-color: rgba(53, 6, 6, 0.349); /* Add a slight background on hover */
+}
+
+main {
+    padding: 2rem;
+    flex: 1; /* Expand to fill the remaining space */
+}
+
+.dataset-info {
+    background-color: rgba(211, 211, 211, 0.498); /* Set the light grey background color with opacity */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    float: left; /* Float the dataset info to the left */
+    margin-left: 20px; /* Add some left margin for spacing between image and question */
+}
+
+h1.header-heading {
+    color: #ed4907f5; /* Set the light gold font color */
+    align-items: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #375d7f; /* Change the text color of the heading */
+}
+
+h3 {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+p {
+    line-height: 1.5;
+    color: #333; /* Change the text color of the dataset information */
+}
+
+footer {
+    background-color: transparent; /* Remove the background color of the footer */
+    color: #8B4513; /* Set a brown font color for the footer text */
+    padding: 1rem;
+    text-align: right; /* Align the footer text to the left */
+}
+
+.footer-text {
+    margin: 0; /* Remove the default margin to avoid extra spacing */
+}
+
+.image-container {
+    max-width: 600px; /* Set the maximum width of the image container */
+    max-height: 600px; /* Set the maximum height of the image container */
+    margin: 0; /* Remove any margin to prevent extra spacing */
+    overflow: hidden; /* Hide any content that exceeds the container dimensions */
+    float: left; /* Float the image container to the left */
+}
+
+.image-container img {
+    width: 100%; /* Set the width of the image to fill the container */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+}
